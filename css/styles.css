@@ -256,12 +256,9 @@ html {
   margin-left: 20px;
 }
 
- .airbnb, .discover, .hosting  {
-  display: inline-block;
-  list-style: none !important;
-  color: #484848 !important;
+.airbnb, .discover, .hosting {
+  display:inline-block;
 }
-
 
  
 
