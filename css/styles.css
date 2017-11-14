@@ -1,5 +1,6 @@
 body {
-	margin:0;
+	margin-left: 60px;
+  margin-right: 60px;
   font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 1.43;
@@ -15,7 +16,9 @@ li {
 }
 
 html {
-	height: 100%;
+	
+  -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
 }
 
 /* navbar */
@@ -162,11 +165,7 @@ html {
     
 }
 
-.line {
-    padding: 20px 0;
-    border-top: 2px solid grey;
-    opacity: 0.8;
-}
+
 
 
 .for-you-and-others > li {
@@ -179,17 +178,13 @@ html {
   margin-top: 20px;
 }
 
-.fa-arrow-right {
-  margin-right: 10px;
+.see-all > .fa-arrow-right {
+  margin-left: 10px;
 }
 
-.experiences-headline {
-  margin-left: 20px;
-}
-
-.experiences-headline  > .see-all {
-  margin-left: 20px;
-  margin-right: 20px;
+.experiences-headline   { 
+  font-size: 32px !important;
+  letter-spacing: -0.6px !important;
 }
 
 .for-you-and-others {
@@ -242,6 +237,8 @@ html {
 .fa-star {
   color: #008489;
 }
+
+
 
 .pre-footer {
   width: 80%;
@@ -323,6 +320,41 @@ html {
     line-height: 24px !important;
     font-weight: 300 !important;
     
+}
+
+.terms {
+  margin-bottom: 4px !important;
+  display: inline-block !important;
+  padding-left: 8px !important;
+  vertical-align: middle !important;
+}
+
+#copyright {
+  font-weight: normal;
+  margin: 0px !important;
+  word-wrap: break-word;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+  font-size: 15px !important;
+  line-height: 18px !important;
+  letter-spacing: 0.2px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  color: #767676 !important;
+}
+
+.bottom-line {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 80%;
+}
+
+.terms-and-privacy  {
+  float: right;
+  margin-bottom: 60px;
+  margin-left: 10px;
+
 }
 
 
