@@ -247,12 +247,20 @@ html {
   color: #f00;
   background-color: #f00;
   height: 5px;
-  align: left;
+  align: center;
   width: 50%;
 }
 
+.footer {
+  margin-right: 20px;
+  margin-left: 20px;
+}
 
-
+ .airbnb, .discover, .hosting  {
+  display: inline-block;
+  list-style: none !important;
+  color: #484848 !important;
+}
 
 
  
