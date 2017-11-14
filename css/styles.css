@@ -248,7 +248,9 @@ html {
   background-color: #f00;
   height: 5px;
   align: center;
-  width: 50%;
+  width: 80%;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .footer {
@@ -258,6 +260,28 @@ html {
 
 .airbnb, .discover, .hosting {
   display:inline-block;
+}
+
+
+
+#language {
+border: 1px solid grey;
+  padding: 10px;
+  margin: 10px;
+}
+
+#language > .fa-angle-down {
+  margin-left: 5px;
+}
+
+#currency > .fa-angle-down {
+  margin-left: 5px;
+}
+
+#currency {
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 10px;
 }
 
  
