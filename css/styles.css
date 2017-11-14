@@ -244,45 +244,88 @@ html {
 }
 
 .pre-footer {
-  color: #f00;
-  background-color: #f00;
-  height: 5px;
-  align: center;
   width: 80%;
-  margin-left: 20px;
-  margin-right: 20px;
+  border-width: 1px;
 }
 
 .footer {
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 25px;
+  background-color: transparent;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+  max-width: 1080px !important;
+}
+
+
+@media (min-width: 744px) {
+
+.footer {
+    padding-top: 48px !important;
+    padding-bottom: 48px !important;
+  }
+}
+
+@media (min-width: 1128px) {
+
+.footer {
+    margin: 0 auto !important;
+    position: relative !important;
+  }
 }
 
 .airbnb, .discover, .hosting {
   display:inline-block;
+  font-weight: normal !important;
+    margin: 0px !important;
+    word-wrap: break-word !important;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+    font-size: 15px !important;
+    line-height: 18px !important;
+    letter-spacing: 0.2px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    color: #484848 !important;
 }
 
 
 
 #language {
-border: 1px solid grey;
-  padding: 10px;
-  margin: 10px;
+  border: 1px solid grey;
+  padding: 15px;
+  margin: 15px;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+    font-size: 19px !important;
+    line-height: 24px !important;
+    font-weight: 300 !important;
+    
 }
 
 #language > .fa-angle-down {
-  margin-left: 5px;
+  margin-left: 10px;
+  
+  float: right;
 }
 
 #currency > .fa-angle-down {
-  margin-left: 5px;
+  margin-left: 10px;
+  
+  float: right;
 }
 
 #currency {
   border: 1px solid grey;
-  padding: 10px;
-  margin: 10px;
+  padding: 15px;
+  margin: 15px;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+    font-size: 19px !important;
+    line-height: 24px !important;
+    font-weight: 300 !important;
+    
 }
+
+
 
  
 
