@@ -204,24 +204,52 @@ html {
 .experiences-headline   { 
     font-size: 32px !important;
     letter-spacing: -0.6px !important;
-
+    max-width: 100%;
     padding-top: 0px !important;
     padding-bottom: 0px !important;
     color: #484848 !important;
     font-weight: 700 !important;
     margin-bottom: 20px !important;
     line-height: 40px !important;
-    margin: 0 2% 0 2%;
-    -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-
     
+    
+}
+
+@media (max-width: 550px) {
+   .fa-angle-down {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  #language, #currency {
+    width: 300px;
+    
+
+  }
+}
+
+@media (max-width: 550px) {
+  .language-and-currency-picker {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .experiences-headline, .experiences-headline-homes {
+    text-align: center;
+  }
 }
 
 @media (min-width: 1200px) {
   .see-all, .fa-arrow-right {
     float: right;
+  }
+}
+
+@media (max-width: 1200px) {
+  .see-all, .fa-arrow-right {
+    display: none;
   }
 }
 
@@ -402,22 +430,11 @@ html {
   color: #767676 !important;
 }
 
-.bottom-line {
-  margin-left: 20px;
-  margin-right: 20px;
-  padding-right: 20px;
-  padding-left: 20px;
-  width: 80%;
+
+
+.bottom-line, .terms-and-privacy {
+  display: inline-block;
 }
-
-.terms-and-privacy  {
-  float: right;
-  margin-bottom: 60px;
-  margin-left: 10px;
-
-}
-
-
 
  
 
