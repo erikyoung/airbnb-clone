@@ -137,7 +137,7 @@ html {
 }
 
 .navbar-collapse > .navbar-nav {
-  width: 45%;
+  
 }
 
 .navbar-nav > #left-column {
@@ -152,7 +152,6 @@ html {
   display: table !important;
   table-layout: fixed !important;
   height: 40px;
-  width: 33% !important;
   border: 1px solid #DBDBDB !important;
   box-shadow: 0 1px 3px rgba(0,0,0,0.08) !important;
   font-size: 19px !important;
@@ -338,6 +337,13 @@ html {
     padding-top: 0px !important;
     padding-bottom: 0px !important;
     color: #484848 !important;
+}
+
+@media (max-width: 700px) {
+  .airbnb, .discover, .hosting {
+    display: none;
+  }
+
 }
 
 
